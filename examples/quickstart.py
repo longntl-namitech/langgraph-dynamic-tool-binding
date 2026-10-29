@@ -2,22 +2,22 @@
 
     uv run --extra examples python -m examples.quickstart "Create a coupon called SUMMER10"
 
-Needs OPENAI_API_KEY. OPENAI_MODEL picks the model (default gpt-5-mini).
+Needs an OpenAI or Azure OpenAI key in the environment, see examples/model.py.
+Run with `uv run --env-file .env ...` to load it from .env.
 """
 
-import os
 import sys
 
 from langchain.agents import create_agent
-from langchain_openai import ChatOpenAI
 
+from examples.model import make_model
 from examples.store_catalog import build_catalog
 from langgraph_dynamic_tool_binding import DynamicToolBindingMiddleware
 
 
 def main(question: str) -> None:
     agent = create_agent(
-        ChatOpenAI(model=os.getenv("OPENAI_MODEL", "gpt-5-mini")),
+        make_model(),
         system_prompt="You manage a store through tools. Use search_tools to find them.",
         middleware=[DynamicToolBindingMiddleware(build_catalog())],
     )
