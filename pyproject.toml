@@ -1,0 +1,37 @@
+[project]
+name = "langgraph-dynamic-tool-binding"
+version = "0.1.0"
+description = "Search-then-bind tool loading for LangChain v1 agents with large tool catalogs"
+readme = "README.md"
+authors = [
+    { name = "Nguyễn Thành Long", email = "long.itptit@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1",
+    "langgraph>=1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.19,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1",
+    "ruff>=0.17.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
