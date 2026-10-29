@@ -1,0 +1,1657 @@
+{
+  "meta": {
+    "model": "gpt-5.4-nano",
+    "date": "2026-10-29",
+    "limit": null
+  },
+  "runs": [
+    {
+      "arm": "bind_all_120",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 5.03,
+      "input_tokens": 9173,
+      "output_tokens": 42,
+      "llm_calls": 2,
+      "tool_calls": [
+        "coupon_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 5.59,
+      "input_tokens": 9164,
+      "output_tokens": 37,
+      "llm_calls": 2,
+      "tool_calls": [
+        "supplier_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 4.79,
+      "input_tokens": 9177,
+      "output_tokens": 45,
+      "llm_calls": 2,
+      "tool_calls": [
+        "product_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 4.6,
+      "input_tokens": 9184,
+      "output_tokens": 47,
+      "llm_calls": 2,
+      "tool_calls": [
+        "warehouse_update"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.82,
+      "input_tokens": 9208,
+      "output_tokens": 65,
+      "llm_calls": 2,
+      "tool_calls": [
+        "shipment_list"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s06",
+      "type": "single",
+      "latency_s": 4.34,
+      "input_tokens": 9170,
+      "output_tokens": 39,
+      "llm_calls": 2,
+      "tool_calls": [
+        "brand_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s07",
+      "type": "single",
+      "latency_s": 4.54,
+      "input_tokens": 9166,
+      "output_tokens": 45,
+      "llm_calls": 2,
+      "tool_calls": [
+        "invoice_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s08",
+      "type": "single",
+      "latency_s": 4.11,
+      "input_tokens": 9178,
+      "output_tokens": 46,
+      "llm_calls": 2,
+      "tool_calls": [
+        "tax_rate_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s09",
+      "type": "single",
+      "latency_s": 4.8,
+      "input_tokens": 9172,
+      "output_tokens": 41,
+      "llm_calls": 2,
+      "tool_calls": [
+        "carrier_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s10",
+      "type": "single",
+      "latency_s": 4.71,
+      "input_tokens": 9217,
+      "output_tokens": 59,
+      "llm_calls": 2,
+      "tool_calls": [
+        "customer_list"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s11",
+      "type": "single",
+      "latency_s": 7.78,
+      "input_tokens": 13865,
+      "output_tokens": 64,
+      "llm_calls": 3,
+      "tool_calls": [
+        "promotion_get",
+        "promotion_update"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s12",
+      "type": "single",
+      "latency_s": 4.2,
+      "input_tokens": 9183,
+      "output_tokens": 48,
+      "llm_calls": 2,
+      "tool_calls": [
+        "purchase_order_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m01",
+      "type": "multi",
+      "latency_s": 4.91,
+      "input_tokens": 9239,
+      "output_tokens": 84,
+      "llm_calls": 2,
+      "tool_calls": [
+        "category_create",
+        "brand_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m02",
+      "type": "multi",
+      "latency_s": 5.76,
+      "input_tokens": 9232,
+      "output_tokens": 82,
+      "llm_calls": 2,
+      "tool_calls": [
+        "order_get",
+        "invoice_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m03",
+      "type": "multi",
+      "latency_s": 5.01,
+      "input_tokens": 9256,
+      "output_tokens": 90,
+      "llm_calls": 2,
+      "tool_calls": [
+        "coupon_delete",
+        "coupon_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m04",
+      "type": "multi",
+      "latency_s": 5.17,
+      "input_tokens": 9315,
+      "output_tokens": 107,
+      "llm_calls": 2,
+      "tool_calls": [
+        "supplier_list",
+        "warehouse_list"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m05",
+      "type": "multi",
+      "latency_s": 8.8,
+      "input_tokens": 18608,
+      "output_tokens": 108,
+      "llm_calls": 4,
+      "tool_calls": [
+        "payment_get",
+        "refund_create",
+        "refund_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m06",
+      "type": "multi",
+      "latency_s": 5.16,
+      "input_tokens": 9247,
+      "output_tokens": 94,
+      "llm_calls": 2,
+      "tool_calls": [
+        "store_create",
+        "price_list_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m07",
+      "type": "multi",
+      "latency_s": 4.91,
+      "input_tokens": 9263,
+      "output_tokens": 102,
+      "llm_calls": 2,
+      "tool_calls": [
+        "customer_group_update",
+        "loyalty_account_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m08",
+      "type": "multi",
+      "latency_s": 6.4,
+      "input_tokens": 13913,
+      "output_tokens": 102,
+      "llm_calls": 3,
+      "tool_calls": [
+        "stock_transfer_create",
+        "inventory_list"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m09",
+      "type": "multi",
+      "latency_s": 7.33,
+      "input_tokens": 14002,
+      "output_tokens": 139,
+      "llm_calls": 3,
+      "tool_calls": [
+        "return_request_get",
+        "shipment_get",
+        "order_item_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "m10",
+      "type": "multi",
+      "latency_s": 5.36,
+      "input_tokens": 9246,
+      "output_tokens": 80,
+      "llm_calls": 2,
+      "tool_calls": [
+        "product_create",
+        "promotion_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f01",
+      "type": "followup",
+      "latency_s": 8.56,
+      "input_tokens": 18504,
+      "output_tokens": 81,
+      "llm_calls": 4,
+      "tool_calls": [
+        "supplier_get",
+        "supplier_update"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f02",
+      "type": "followup",
+      "latency_s": 8.77,
+      "input_tokens": 18526,
+      "output_tokens": 82,
+      "llm_calls": 4,
+      "tool_calls": [
+        "coupon_create",
+        "coupon_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f03",
+      "type": "followup",
+      "latency_s": 8.3,
+      "input_tokens": 18498,
+      "output_tokens": 74,
+      "llm_calls": 4,
+      "tool_calls": [
+        "order_get",
+        "order_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f04",
+      "type": "followup",
+      "latency_s": 8.29,
+      "input_tokens": 18664,
+      "output_tokens": 93,
+      "llm_calls": 4,
+      "tool_calls": [
+        "carrier_list",
+        "carrier_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f05",
+      "type": "followup",
+      "latency_s": 7.76,
+      "input_tokens": 18519,
+      "output_tokens": 81,
+      "llm_calls": 4,
+      "tool_calls": [
+        "warehouse_create",
+        "store_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f06",
+      "type": "followup",
+      "latency_s": 10.96,
+      "input_tokens": 18523,
+      "output_tokens": 88,
+      "llm_calls": 4,
+      "tool_calls": [
+        "invoice_get",
+        "invoice_update"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f07",
+      "type": "followup",
+      "latency_s": 8.64,
+      "input_tokens": 18509,
+      "output_tokens": 75,
+      "llm_calls": 4,
+      "tool_calls": [
+        "customer_create",
+        "customer_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "f08",
+      "type": "followup",
+      "latency_s": 7.16,
+      "input_tokens": 18525,
+      "output_tokens": 85,
+      "llm_calls": 4,
+      "tool_calls": [
+        "tax_rate_get",
+        "tax_rate_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 4.5,
+      "input_tokens": 3187,
+      "output_tokens": 60,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 4.69,
+      "input_tokens": 1249,
+      "output_tokens": 55,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "supplier get"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 5.31,
+      "input_tokens": 3279,
+      "output_tokens": 63,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "product delete pro-42"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 7.48,
+      "input_tokens": 2023,
+      "output_tokens": 136,
+      "llm_calls": 4,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_list",
+        "warehouse_list"
+      ],
+      "success": false,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "warehouse rename"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.31,
+      "input_tokens": 4000,
+      "output_tokens": 76,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "shipment_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "shipments list"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s06",
+      "type": "single",
+      "latency_s": 5.16,
+      "input_tokens": 3206,
+      "output_tokens": 61,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "brand_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "brand create add new"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s07",
+      "type": "single",
+      "latency_s": 4.76,
+      "input_tokens": 1251,
+      "output_tokens": 75,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "invoice_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "invoice get"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s08",
+      "type": "single",
+      "latency_s": 4.6,
+      "input_tokens": 3250,
+      "output_tokens": 73,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "tax_rate_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "tax rate create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s09",
+      "type": "single",
+      "latency_s": 4.36,
+      "input_tokens": 1258,
+      "output_tokens": 58,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "carrier_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "carrier remove"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s10",
+      "type": "single",
+      "latency_s": 4.65,
+      "input_tokens": 3840,
+      "output_tokens": 83,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "customer_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "customer list page 2"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s11",
+      "type": "single",
+      "latency_s": 4.52,
+      "input_tokens": 3703,
+      "output_tokens": 68,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "promotion_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "promotion update notes pro-5"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s12",
+      "type": "single",
+      "latency_s": 4.56,
+      "input_tokens": 3326,
+      "output_tokens": 67,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "purchase_order_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "purchase order create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m01",
+      "type": "multi",
+      "latency_s": 4.5,
+      "input_tokens": 3257,
+      "output_tokens": 103,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "category_create",
+        "brand_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "category create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m02",
+      "type": "multi",
+      "latency_s": 4.96,
+      "input_tokens": 3432,
+      "output_tokens": 109,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "order_get",
+        "invoice_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "order get ord-9 invoice inv-9"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m03",
+      "type": "multi",
+      "latency_s": 4.51,
+      "input_tokens": 3365,
+      "output_tokens": 116,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_delete",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon delete"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m04",
+      "type": "multi",
+      "latency_s": 4.85,
+      "input_tokens": 4048,
+      "output_tokens": 133,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_list",
+        "warehouse_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "supplier list"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m05",
+      "type": "multi",
+      "latency_s": 8.9,
+      "input_tokens": 6691,
+      "output_tokens": 150,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "refund_create",
+        "payment_list",
+        "payment_list"
+      ],
+      "success": false,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "refund create show payment"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m06",
+      "type": "multi",
+      "latency_s": 5.7,
+      "input_tokens": 3276,
+      "output_tokens": 98,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "store_create",
+        "price_list_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "store create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m07",
+      "type": "multi",
+      "latency_s": 5.51,
+      "input_tokens": 2465,
+      "output_tokens": 131,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "customer_group_update",
+        "loyalty_account_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 15,
+      "search_queries": [
+        "customer group rename VIP cus-2 loyalty account loy-15"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m08",
+      "type": "multi",
+      "latency_s": 6.85,
+      "input_tokens": 3620,
+      "output_tokens": 130,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "stock_transfer_create",
+        "inventory_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "stock transfer create list inventory"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m09",
+      "type": "multi",
+      "latency_s": 11.54,
+      "input_tokens": 7726,
+      "output_tokens": 174,
+      "llm_calls": 7,
+      "tool_calls": [
+        "search_tools",
+        "return_request_get",
+        "search_tools",
+        "shipment_get",
+        "search_tools",
+        "order_item_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 35,
+      "search_queries": [
+        "return request show ret-4",
+        "shipment show shi-4",
+        "delete order item ord-40"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "m10",
+      "type": "multi",
+      "latency_s": 5.11,
+      "input_tokens": 3265,
+      "output_tokens": 106,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_create",
+        "promotion_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "product create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f01",
+      "type": "followup",
+      "latency_s": 8.24,
+      "input_tokens": 2482,
+      "output_tokens": 107,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get",
+        "supplier_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "supplier get sup-3"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f02",
+      "type": "followup",
+      "latency_s": 8.04,
+      "input_tokens": 6345,
+      "output_tokens": 102,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f03",
+      "type": "followup",
+      "latency_s": 6.79,
+      "input_tokens": 4640,
+      "output_tokens": 95,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "order_get",
+        "order_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 15,
+      "search_queries": [
+        "order get"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f04",
+      "type": "followup",
+      "latency_s": 8.74,
+      "input_tokens": 10492,
+      "output_tokens": 134,
+      "llm_calls": 6,
+      "tool_calls": [
+        "search_tools",
+        "carrier_list",
+        "search_tools",
+        "carrier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 29,
+      "search_queries": [
+        "carriers list",
+        "get carrier"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f05",
+      "type": "followup",
+      "latency_s": 8.71,
+      "input_tokens": 9361,
+      "output_tokens": 115,
+      "llm_calls": 6,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_create",
+        "search_tools",
+        "store_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 38,
+      "search_queries": [
+        "warehouse create",
+        "customer_store"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f06",
+      "type": "followup",
+      "latency_s": 7.16,
+      "input_tokens": 3503,
+      "output_tokens": 108,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "invoice_get",
+        "invoice_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 10,
+      "search_queries": [
+        "invoice get show inv-55"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f07",
+      "type": "followup",
+      "latency_s": 7.23,
+      "input_tokens": 6458,
+      "output_tokens": 95,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "customer_create",
+        "customer_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "customer create"
+      ]
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "f08",
+      "type": "followup",
+      "latency_s": 7.56,
+      "input_tokens": 2582,
+      "output_tokens": 107,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "tax_rate_get",
+        "tax_rate_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "tax rate get tax-2"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 4.61,
+      "input_tokens": 3187,
+      "output_tokens": 60,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 4.41,
+      "input_tokens": 1249,
+      "output_tokens": 55,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "supplier get"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 4.94,
+      "input_tokens": 3279,
+      "output_tokens": 67,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "product delete pro-42"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 5.47,
+      "input_tokens": 1870,
+      "output_tokens": 83,
+      "llm_calls": 4,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_get",
+        "warehouse_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "warehouse rename"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.41,
+      "input_tokens": 3934,
+      "output_tokens": 79,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "shipment_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "shipment list"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s06",
+      "type": "single",
+      "latency_s": 4.85,
+      "input_tokens": 3184,
+      "output_tokens": 58,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "brand_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "brand create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s07",
+      "type": "single",
+      "latency_s": 4.78,
+      "input_tokens": 1251,
+      "output_tokens": 66,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "invoice_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "invoice get"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s08",
+      "type": "single",
+      "latency_s": 4.58,
+      "input_tokens": 3243,
+      "output_tokens": 70,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "tax_rate_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "tax rate create VAT 10%"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s09",
+      "type": "single",
+      "latency_s": 4.98,
+      "input_tokens": 1254,
+      "output_tokens": 56,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "carrier_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "carrier remove"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s10",
+      "type": "single",
+      "latency_s": 5.07,
+      "input_tokens": 3846,
+      "output_tokens": 90,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "customer_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "customer list page 2 show"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s11",
+      "type": "single",
+      "latency_s": 4.71,
+      "input_tokens": 3703,
+      "output_tokens": 68,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "promotion_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "promotion update notes pro-5"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s12",
+      "type": "single",
+      "latency_s": 4.59,
+      "input_tokens": 3326,
+      "output_tokens": 67,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "purchase_order_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "purchase order create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m01",
+      "type": "multi",
+      "latency_s": 4.99,
+      "input_tokens": 3249,
+      "output_tokens": 95,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "category_create",
+        "brand_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "category create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m02",
+      "type": "multi",
+      "latency_s": 5.18,
+      "input_tokens": 2410,
+      "output_tokens": 110,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "order_get",
+        "order_get"
+      ],
+      "success": false,
+      "recall": 0.5,
+      "bound_tools": 15,
+      "search_queries": [
+        "order get"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m03",
+      "type": "multi",
+      "latency_s": 5.12,
+      "input_tokens": 3365,
+      "output_tokens": 111,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_delete",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon delete"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m04",
+      "type": "multi",
+      "latency_s": 4.9,
+      "input_tokens": 4116,
+      "output_tokens": 127,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_list",
+        "warehouse_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "supplier list warehouses list"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m05",
+      "type": "multi",
+      "latency_s": 6.94,
+      "input_tokens": 6558,
+      "output_tokens": 141,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "payment_get",
+        "refund_create",
+        "payment_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "refund create show payment pay-77"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m06",
+      "type": "multi",
+      "latency_s": 4.64,
+      "input_tokens": 3284,
+      "output_tokens": 112,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "store_create",
+        "price_list_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "store create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m07",
+      "type": "multi",
+      "latency_s": 5.23,
+      "input_tokens": 1940,
+      "output_tokens": 134,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "customer_group_update",
+        "customer_group_get",
+        "customer_get"
+      ],
+      "success": false,
+      "recall": 0.5,
+      "bound_tools": 10,
+      "search_queries": [
+        "customer group rename"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m08",
+      "type": "multi",
+      "latency_s": 5.06,
+      "input_tokens": 3620,
+      "output_tokens": 135,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "stock_transfer_create",
+        "inventory_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "stock transfer create list inventory"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m09",
+      "type": "multi",
+      "latency_s": 9.07,
+      "input_tokens": 8110,
+      "output_tokens": 186,
+      "llm_calls": 6,
+      "tool_calls": [
+        "search_tools",
+        "search_tools",
+        "return_request_get",
+        "shipment_get",
+        "search_tools",
+        "order_item_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 40,
+      "search_queries": [
+        "return request show get ret-4",
+        "shipment show shi-4",
+        "delete order item ord-40"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "m10",
+      "type": "multi",
+      "latency_s": 4.73,
+      "input_tokens": 3265,
+      "output_tokens": 107,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_create",
+        "promotion_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "product create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f01",
+      "type": "followup",
+      "latency_s": 6.81,
+      "input_tokens": 2468,
+      "output_tokens": 97,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get",
+        "supplier_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "supplier get show"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f02",
+      "type": "followup",
+      "latency_s": 6.97,
+      "input_tokens": 6345,
+      "output_tokens": 102,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "coupon create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f03",
+      "type": "followup",
+      "latency_s": 7.24,
+      "input_tokens": 4666,
+      "output_tokens": 108,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "order_get",
+        "order_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 15,
+      "search_queries": [
+        "order get"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f04",
+      "type": "followup",
+      "latency_s": 9.83,
+      "input_tokens": 10486,
+      "output_tokens": 123,
+      "llm_calls": 6,
+      "tool_calls": [
+        "search_tools",
+        "carrier_list",
+        "search_tools",
+        "carrier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 29,
+      "search_queries": [
+        "carriers list",
+        "carrier get"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f05",
+      "type": "followup",
+      "latency_s": 9.61,
+      "input_tokens": 8753,
+      "output_tokens": 120,
+      "llm_calls": 6,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_create",
+        "search_tools",
+        "store_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 26,
+      "search_queries": [
+        "warehouse create South Depot",
+        "store warehouse create South Mall"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f06",
+      "type": "followup",
+      "latency_s": 8.21,
+      "input_tokens": 3511,
+      "output_tokens": 112,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "invoice_get",
+        "invoice_update"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 10,
+      "search_queries": [
+        "invoice show inv-55"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f07",
+      "type": "followup",
+      "latency_s": 7.67,
+      "input_tokens": 6458,
+      "output_tokens": 93,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "customer_create",
+        "customer_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25,
+      "search_queries": [
+        "customer create"
+      ]
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "f08",
+      "type": "followup",
+      "latency_s": 6.8,
+      "input_tokens": 2586,
+      "output_tokens": 109,
+      "llm_calls": 5,
+      "tool_calls": [
+        "search_tools",
+        "tax_rate_get",
+        "tax_rate_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5,
+      "search_queries": [
+        "tax rate tax-2 get"
+      ]
+    }
+  ],
+  "summary": {
+    "bind_all_120": {
+      "tasks": 30,
+      "errors": 0,
+      "success_rate": 1.0,
+      "mean_input_tokens": 12482,
+      "total_input_tokens": 374446,
+      "total_output_tokens": 2225,
+      "mean_llm_calls": 2.7,
+      "mean_latency_s": 6.22
+    },
+    "search_bind_120": {
+      "tasks": 30,
+      "errors": 0,
+      "success_rate": 0.933,
+      "mean_input_tokens": 4019,
+      "total_input_tokens": 120580,
+      "total_output_tokens": 2988,
+      "mean_llm_calls": 3.83,
+      "mean_latency_s": 6.13,
+      "mean_recall": 1.0,
+      "mean_bound_tools": 20.7
+    },
+    "search_bind_170": {
+      "tasks": 30,
+      "errors": 0,
+      "success_rate": 0.933,
+      "mean_input_tokens": 3951,
+      "total_input_tokens": 118516,
+      "total_output_tokens": 2941,
+      "mean_llm_calls": 3.8,
+      "mean_latency_s": 5.88,
+      "mean_recall": 0.967,
+      "mean_bound_tools": 20
+    },
+    "input_token_ratio_120": 3.11,
+    "probe_bind_all_170": "OpenAIInvalidRequestError: Error code: 400 - Invalid 'tools': array too long. Expected an array with maximum length 128, but got an array with length 170 instead."
+  }
+}
