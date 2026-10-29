@@ -1,0 +1,30 @@
+{"id": "s01", "type": "single", "turns": ["Create a coupon called SUMMER10."], "expected": [{"tool": "coupon_create", "args": {"name": "SUMMER10"}}]}
+{"id": "s02", "type": "single", "turns": ["Show me supplier sup-7."], "expected": [{"tool": "supplier_get", "args": {"id": "sup-7"}}]}
+{"id": "s03", "type": "single", "turns": ["Delete product pro-42, it was discontinued."], "expected": [{"tool": "product_delete", "args": {"id": "pro-42"}}]}
+{"id": "s04", "type": "single", "turns": ["Rename warehouse war-3 to North Hub."], "expected": [{"tool": "warehouse_update", "args": {"id": "war-3", "name": "North Hub"}}]}
+{"id": "s05", "type": "single", "turns": ["List the shipments."], "expected": [{"tool": "shipment_list", "args": {}}]}
+{"id": "s06", "type": "single", "turns": ["Add a new brand named Lumen."], "expected": [{"tool": "brand_create", "args": {"name": "Lumen"}}]}
+{"id": "s07", "type": "single", "turns": ["Get invoice inv-1001."], "expected": [{"tool": "invoice_get", "args": {"id": "inv-1001"}}]}
+{"id": "s08", "type": "single", "turns": ["Create a tax rate called VAT 10%."], "expected": [{"tool": "tax_rate_create", "args": {"name": "VAT 10%"}}]}
+{"id": "s09", "type": "single", "turns": ["Remove carrier car-2."], "expected": [{"tool": "carrier_delete", "args": {"id": "car-2"}}]}
+{"id": "s10", "type": "single", "turns": ["Show page 2 of the customer list."], "expected": [{"tool": "customer_list", "args": {"page": 2}}]}
+{"id": "s11", "type": "single", "turns": ["Update promotion pro-5: set its notes to 'ends Sunday'."], "expected": [{"tool": "promotion_update", "args": {"id": "pro-5", "notes": "ends Sunday"}}]}
+{"id": "s12", "type": "single", "turns": ["Open a new purchase order named PO Week 44."], "expected": [{"tool": "purchase_order_create", "args": {"name": "PO Week 44"}}]}
+{"id": "m01", "type": "multi", "turns": ["Create a category called Outdoor and a brand called Trailhead."], "expected": [{"tool": "category_create", "args": {"name": "Outdoor"}}, {"tool": "brand_create", "args": {"name": "Trailhead"}}]}
+{"id": "m02", "type": "multi", "turns": ["Get order ord-9 and its invoice inv-9."], "expected": [{"tool": "order_get", "args": {"id": "ord-9"}}, {"tool": "invoice_get", "args": {"id": "inv-9"}}]}
+{"id": "m03", "type": "multi", "turns": ["Delete coupon cou-1 and create a new coupon called WINTER20."], "expected": [{"tool": "coupon_delete", "args": {"id": "cou-1"}}, {"tool": "coupon_create", "args": {"name": "WINTER20"}}]}
+{"id": "m04", "type": "multi", "turns": ["List the suppliers and the warehouses."], "expected": [{"tool": "supplier_list", "args": {}}, {"tool": "warehouse_list", "args": {}}]}
+{"id": "m05", "type": "multi", "turns": ["Refund payment pay-77 by creating a refund named Refund pay-77, then show the payment."], "expected": [{"tool": "refund_create", "args": {"name": "Refund pay-77"}}, {"tool": "payment_get", "args": {"id": "pay-77"}}]}
+{"id": "m06", "type": "multi", "turns": ["Create a store called Downtown and a price list called Downtown Prices."], "expected": [{"tool": "store_create", "args": {"name": "Downtown"}}, {"tool": "price_list_create", "args": {"name": "Downtown Prices"}}]}
+{"id": "m07", "type": "multi", "turns": ["Rename customer group cus-2 to VIP and get loyalty account loy-15."], "expected": [{"tool": "customer_group_update", "args": {"id": "cus-2", "name": "VIP"}}, {"tool": "loyalty_account_get", "args": {"id": "loy-15"}}]}
+{"id": "m08", "type": "multi", "turns": ["Create a stock transfer named Restock North, and list the inventory."], "expected": [{"tool": "stock_transfer_create", "args": {"name": "Restock North"}}, {"tool": "inventory_list", "args": {}}]}
+{"id": "m09", "type": "multi", "turns": ["Show return request ret-4 and shipment shi-4, then delete order item ord-40."], "expected": [{"tool": "return_request_get", "args": {"id": "ret-4"}}, {"tool": "shipment_get", "args": {"id": "shi-4"}}, {"tool": "order_item_delete", "args": {"id": "ord-40"}}]}
+{"id": "m10", "type": "multi", "turns": ["Create a product called Trail Mug and a promotion called Mug Monday."], "expected": [{"tool": "product_create", "args": {"name": "Trail Mug"}}, {"tool": "promotion_create", "args": {"name": "Mug Monday"}}]}
+{"id": "f01", "type": "followup", "turns": ["Show supplier sup-3.", "Now rename it to Northwind."], "expected": [{"tool": "supplier_get", "args": {"id": "sup-3"}}, {"tool": "supplier_update", "args": {"id": "sup-3", "name": "Northwind"}}]}
+{"id": "f02", "type": "followup", "turns": ["Create a coupon called FALL15.", "Also create one called FALL25."], "expected": [{"tool": "coupon_create", "args": {"name": "FALL15"}}, {"tool": "coupon_create", "args": {"name": "FALL25"}}]}
+{"id": "f03", "type": "followup", "turns": ["Get order ord-12.", "Delete that order."], "expected": [{"tool": "order_get", "args": {"id": "ord-12"}}, {"tool": "order_delete", "args": {"id": "ord-12"}}]}
+{"id": "f04", "type": "followup", "turns": ["List the carriers.", "Now show carrier car-1."], "expected": [{"tool": "carrier_list", "args": {}}, {"tool": "carrier_get", "args": {"id": "car-1"}}]}
+{"id": "f05", "type": "followup", "turns": ["Create a warehouse called South Depot.", "And a store called South Mall."], "expected": [{"tool": "warehouse_create", "args": {"name": "South Depot"}}, {"tool": "store_create", "args": {"name": "South Mall"}}]}
+{"id": "f06", "type": "followup", "turns": ["Show invoice inv-55.", "Set its notes to 'paid by card'."], "expected": [{"tool": "invoice_get", "args": {"id": "inv-55"}}, {"tool": "invoice_update", "args": {"id": "inv-55", "notes": "paid by card"}}]}
+{"id": "f07", "type": "followup", "turns": ["Create a customer called Jane Tran.", "Then show customer cus-1."], "expected": [{"tool": "customer_create", "args": {"name": "Jane Tran"}}, {"tool": "customer_get", "args": {"id": "cus-1"}}]}
+{"id": "f08", "type": "followup", "turns": ["Get tax rate tax-2.", "Delete it, reason: replaced."], "expected": [{"tool": "tax_rate_get", "args": {"id": "tax-2"}}, {"tool": "tax_rate_delete", "args": {"id": "tax-2"}}]}

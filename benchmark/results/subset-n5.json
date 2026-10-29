@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "model": "gpt-5.4-nano",
+    "date": "2026-10-29",
+    "limit": 5
+  },
+  "runs": [
+    {
+      "arm": "bind_all_120",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 5.05,
+      "input_tokens": 9173,
+      "output_tokens": 41,
+      "llm_calls": 2,
+      "tool_calls": [
+        "coupon_create"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 5.52,
+      "input_tokens": 9164,
+      "output_tokens": 43,
+      "llm_calls": 2,
+      "tool_calls": [
+        "supplier_get"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 5.0,
+      "input_tokens": 9177,
+      "output_tokens": 42,
+      "llm_calls": 2,
+      "tool_calls": [
+        "product_delete"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 4.71,
+      "input_tokens": 9184,
+      "output_tokens": 49,
+      "llm_calls": 2,
+      "tool_calls": [
+        "warehouse_update"
+      ],
+      "success": true
+    },
+    {
+      "arm": "bind_all_120",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.27,
+      "input_tokens": 9208,
+      "output_tokens": 65,
+      "llm_calls": 2,
+      "tool_calls": [
+        "shipment_list"
+      ],
+      "success": true
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 4.28,
+      "input_tokens": 3193,
+      "output_tokens": 63,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 4.16,
+      "input_tokens": 1251,
+      "output_tokens": 55,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 5
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 4.81,
+      "input_tokens": 3273,
+      "output_tokens": 63,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 6.36,
+      "input_tokens": 2023,
+      "output_tokens": 135,
+      "llm_calls": 4,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_list",
+        "warehouse_list"
+      ],
+      "success": false,
+      "recall": 1.0,
+      "bound_tools": 5
+    },
+    {
+      "arm": "search_bind_120",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.79,
+      "input_tokens": 4000,
+      "output_tokens": 80,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "shipment_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s01",
+      "type": "single",
+      "latency_s": 4.38,
+      "input_tokens": 3187,
+      "output_tokens": 60,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "coupon_create"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s02",
+      "type": "single",
+      "latency_s": 4.5,
+      "input_tokens": 3161,
+      "output_tokens": 59,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "supplier_get"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s03",
+      "type": "single",
+      "latency_s": 4.74,
+      "input_tokens": 3275,
+      "output_tokens": 63,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "product_delete"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s04",
+      "type": "single",
+      "latency_s": 7.34,
+      "input_tokens": 2023,
+      "output_tokens": 131,
+      "llm_calls": 4,
+      "tool_calls": [
+        "search_tools",
+        "warehouse_list",
+        "warehouse_list"
+      ],
+      "success": false,
+      "recall": 1.0,
+      "bound_tools": 5
+    },
+    {
+      "arm": "search_bind_170",
+      "task_id": "s05",
+      "type": "single",
+      "latency_s": 4.46,
+      "input_tokens": 3934,
+      "output_tokens": 77,
+      "llm_calls": 3,
+      "tool_calls": [
+        "search_tools",
+        "shipment_list"
+      ],
+      "success": true,
+      "recall": 1.0,
+      "bound_tools": 25
+    }
+  ],
+  "summary": {
+    "bind_all_120": {
+      "tasks": 5,
+      "errors": 0,
+      "success_rate": 1.0,
+      "mean_input_tokens": 9181,
+      "total_input_tokens": 45906,
+      "total_output_tokens": 240,
+      "mean_llm_calls": 2,
+      "mean_latency_s": 4.91
+    },
+    "search_bind_120": {
+      "tasks": 5,
+      "errors": 0,
+      "success_rate": 0.8,
+      "mean_input_tokens": 2748,
+      "total_input_tokens": 13740,
+      "total_output_tokens": 396,
+      "mean_llm_calls": 3.2,
+      "mean_latency_s": 4.88,
+      "mean_recall": 1.0,
+      "mean_bound_tools": 17
+    },
+    "search_bind_170": {
+      "tasks": 5,
+      "errors": 0,
+      "success_rate": 0.8,
+      "mean_input_tokens": 3116,
+      "total_input_tokens": 15580,
+      "total_output_tokens": 390,
+      "mean_llm_calls": 3.2,
+      "mean_latency_s": 5.08,
+      "mean_recall": 1.0,
+      "mean_bound_tools": 21
+    },
+    "input_token_ratio_120": 3.34,
+    "probe_bind_all_170": "OpenAIInvalidRequestError: Error code: 400 - Invalid 'tools': array too long. Expected an array with maximum length 128, but got an array with length 170 instead."
+  }
+}
