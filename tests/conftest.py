@@ -21,8 +21,8 @@ def script(*messages: AIMessage) -> RecordingFakeModel:
     return RecordingFakeModel(messages=iter(messages), bound=[])
 
 
-def call(name: str, call_id: str, **args: Any) -> dict[str, Any]:
-    return {"name": name, "args": args, "id": call_id, "type": "tool_call"}
+def call(tool_name: str, call_id: str, /, **args: Any) -> dict[str, Any]:
+    return {"name": tool_name, "args": args, "id": call_id, "type": "tool_call"}
 
 
 def make_tool(name: str) -> BaseTool:
